@@ -16,6 +16,13 @@ body,html{
 	text-align: center;
 }
 
+.container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 10%; 
+}
+
 .head .text{
 	text-align: center;
 	padding: 10px;
@@ -37,11 +44,11 @@ body,html{
 	float: left;
 }
 
-.container{
-	width: 100%;
-	height: 100%;
-	position: relative;
-	top: 10%; 
+.container .text .details{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+
 }
 
 .pic1{
